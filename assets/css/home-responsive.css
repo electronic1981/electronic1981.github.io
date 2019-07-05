@@ -1,0 +1,122 @@
+
+@media (max-width:750px){
+
+    /*---------- COVER ----------*/
+
+    #logo #micompu{
+        font-size: 2em;
+    }
+    /*----------------------------*/
+    .grid-div1{
+        margin-top: 10px;
+    }
+
+    /*----------------------------*/
+    #cuerpo{
+        width:100%;
+        position:relative;
+        float: left;
+        margin-top:80px;
+
+    }
+    /*---------- MENU HEADER ---------- */
+
+    #btn-divmenu{
+        position: fixed;
+        right: 0px;
+        top:0px;
+        float: right;        
+        display: block;
+        padding:10px;
+        font-size: 2em;
+        z-index: 320;
+    }
+    #divmenu {
+        position:fixed;
+        float: right;
+        display:none;
+        right: 0px;
+        top:60px;
+        width: 100%;
+        border:0px;
+        font-family: "Helvetica";
+        font-size: 14px;
+        text-align: center;
+        transition: all 5s;
+        z-index:0
+    }
+
+    .menu_header1{
+        position:relative;
+        clear: both;
+        float: right;
+        padding:0px;
+        margin: 0px;
+        width: 100%;
+        background-color: rgba(0,0,0,0.9);
+        border:0px solid #333;
+
+    }
+    .menu_header1 > ul{
+        flex-direction: column;
+        list-style: none;
+        margin-left: 0px;
+        padding:0px;
+    }
+
+    .menu_header1 > ul> li{
+        float:right;
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;
+        margin: 0px;
+        font-size: 1.5em;
+    }
+    .menu_header1 > ul> li>a{
+        float:right;
+        display:block;
+        width: 100%;
+        padding: 20px 20px;
+        text-decoration: none;
+        text-align: right;
+    }
+    .menu_header1 > ul> li>a:hover{
+        border: 1px solid #999;
+        background-color: #000;
+    }
+
+    /*-----*/
+    /*----------- BLOG --------*/
+    #home-blog .noti-article .noti-artic1{
+        height: 230px;
+    }
+    #home-blog .noti-article .noti-desc{
+        display:none;
+    }
+    #home-blog .noti-article img{
+        height: 120px;
+    }
+
+    #banner-container .container{
+        width: 100%;   
+    }
+
+}
+
+/*------ ENCABEZADOS --------*/
+.section-title h1{
+    font-size: 2.8em;
+    font-weight: bolder;
+}
+.section-title h2{
+    font-size: 1.3em;
+}
+
+/*---------- SECCION BANNER --------*/
+.banner-container{
+    width:  80%;
+}
+
+
+
+
